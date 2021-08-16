@@ -9,10 +9,11 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
-    width: 40%;
-    padding-left: 6%;
+    width: 25%;
+    padding-left: 10%;
 }
 .half-width img{
  width: 80%;
@@ -20,8 +21,16 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,red);
-    padding: 10px 40px;
+    padding:   10px 30px;
     color: aliceblue;
     font-weight: 500;
     border-radius: 25px;
 }
+.about-me{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+ background-position: right;
+}
+.half-width{
+    width: 25%;
+    padding-right: 15%;
