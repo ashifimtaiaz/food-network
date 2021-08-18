@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 30px;
@@ -32,7 +33,7 @@ h2{
 .about-me{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
- background-position: right;
+ background-position: top;
 }
 .recipie-item{
     width: 40%;
@@ -42,7 +43,9 @@ h2{
     border-radius: 10px;
     box-shadow: 5px 5px 15px gray;
     border: 15px solid white;
-   
+}
+.recipie-item img{
+    width: 100%;
 }
 footer p {
 text-align: center;
