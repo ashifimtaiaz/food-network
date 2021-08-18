@@ -4,10 +4,13 @@ body{
 h1{
     font-size: 30px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -31,6 +34,17 @@ section{
     background-repeat: no-repeat;
  background-position: right;
 }
-.half-width{
-    width: 25%;
-    padding-right: 15%;
+.recipie-item{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 1%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+    border: 15px solid white;
+   
+}
+footer p {
+text-align: center;
+}
+
