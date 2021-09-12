@@ -8,6 +8,10 @@ h1{
 h2{
     font-size: 40px;
 }
+h3{
+    text-align: center;
+    font-size: 20px;
+}
 .orange-color{
     color: orange
 }
@@ -49,6 +53,7 @@ h2{
 }
 footer p {
 text-align: center;
+font-size: 10px;
 }
 .box-item{
     width: 40%;
